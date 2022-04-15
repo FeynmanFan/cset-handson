@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercises", "Exercises\Exer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercises.Tests", "Exercises.Tests\Exercises.Tests.csproj", "{CE018394-B8F2-4F9F-9ACD-E251D3090122}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkpoints", "Checkpoints\Checkpoints.csproj", "{BA1D68E3-B69D-44DB-B77F-804BE234C848}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CE018394-B8F2-4F9F-9ACD-E251D3090122}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE018394-B8F2-4F9F-9ACD-E251D3090122}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE018394-B8F2-4F9F-9ACD-E251D3090122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA1D68E3-B69D-44DB-B77F-804BE234C848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA1D68E3-B69D-44DB-B77F-804BE234C848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA1D68E3-B69D-44DB-B77F-804BE234C848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA1D68E3-B69D-44DB-B77F-804BE234C848}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

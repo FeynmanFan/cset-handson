@@ -11,9 +11,9 @@ while(!int.TryParse(number, out x))
     number = Console.ReadLine();
 }
 
-var square = SquareNumber(x);
+Func<int, int> squareNumber = value => value * value; //SquareNumber(x);
 
-Console.WriteLine($"The square of {x} is {square}");
+Console.WriteLine($"The square of {x} is {squareNumber(x)}");
 
 int SquareNumber(int value)
 {

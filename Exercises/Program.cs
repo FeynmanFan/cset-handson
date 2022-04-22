@@ -1,11 +1,25 @@
-﻿using System;
-System.Console.WriteLine((new Exercises.Calculator()).Calculate(1, 2));
+﻿
+using System.Linq.Expressions;
 
-// uncomment the following, once you're done all Tasks, to run your code!
-/*
-static int OtherAdd(int a, int b)
+Console.WriteLine("Please enter an integer:");
+var entry = Console.ReadLine();
+
+int x;
+
+while (!int.TryParse(entry, out x))
 {
-    return a + b;
+    Console.WriteLine("Please enter an integer:");
+    entry = Console.ReadLine();
 }
-System.Console.WriteLine((new Exercises.Calculator()).Calculate(OtherAdd, 3, 4));
-*/
+
+Console.WriteLine("TODO: Implement func");
+return;
+
+/*ConstantExpression xParameter = Expression.Constant(x);
+ConstantExpression twelve = Expression.Constant(12);
+Expression greaterThan = Expression.GreaterThan(xParameter, twelve);
+
+var expr = Expression.Lambda<Func<bool>>(greaterThan);
+
+var func = expr.Compile();
+Console.WriteLine(x.ToString() + " is " + (func() ? "" : "not ") + "greater than 12");*/
